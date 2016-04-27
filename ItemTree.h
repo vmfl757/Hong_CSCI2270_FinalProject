@@ -43,7 +43,7 @@ class ItemTree
     private:
         ItemNode* minimumNode(ItemNode *node);
         ItemNode* searchItemTree(ItemNode *node, std::string item);
-        int countItemNodes(ItemNode *node);
+        void countItemNodes(ItemNode *node);
         void printInOrder(ItemNode *node);
         void printPreOrder(ItemNode *node);
         void printPostOrder(ItemNode *node);
