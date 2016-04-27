@@ -26,13 +26,13 @@ int main(int argc, char* argv[])
 
             int price = stoi(line.substr(commaPos1+1));
 
-            Item.addItemNode(item, price);
+            Item.addItem(item, price);
         }
 
         infile.close();
     }
 
-    int input;
+    int input=0;
     while (input != 9)
     {
         cout << "*******MENU*******" << endl

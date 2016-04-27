@@ -198,7 +198,7 @@ int ItemTree::countItemNodes()
     return cnt;
 }
 
-int ItemTree::countItemNodes(ItemNode *node)
+void ItemTree::countItemNodes(ItemNode *node)
 {
     if (node->leftChild != NULL)
     {
